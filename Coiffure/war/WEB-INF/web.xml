@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Coiffure</servlet-name>
+		<servlet-class>unsa.com.CoiffureServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Coiffure</servlet-name>
+		<url-pattern>/coiffure</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>SessionesAyy</servlet-name>
+		<servlet-class>unsa.com.Session</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SessionesAyy</servlet-name>
+		<url-pattern>/sesion</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Save</servlet-name>
+		<servlet-class>unsa.com.Save</servlet-class> 
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Save</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Registrados</servlet-name>
+		<servlet-class>unsa.com.Registrados</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Registrados</servlet-name>
+		<url-pattern>/registrados</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>prim</servlet-name>
+		<servlet-class>unsa.com.NoTanTonta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>prim</servlet-name>
+		<url-pattern>/primer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveS</servlet-name>
+		<servlet-class>unsa.com.SaveS</servlet-class> 
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SaveS</servlet-name>
+		<url-pattern>/saveS</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListS</servlet-name>
+		<servlet-class>unsa.com.ListS</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ListS</servlet-name>
+		<url-pattern>/listS</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>SaveT</servlet-name>
+		<servlet-class>unsa.com.SaveT</servlet-class> 
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SaveT</servlet-name>
+		<url-pattern>/saveT</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListT</servlet-name>
+		<servlet-class>unsa.com.ListT</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListT</servlet-name>
+		<url-pattern>/listT</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>primero</servlet-name>
+		<servlet-class>unsa.com.ListC</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>primero</servlet-name>
+		<url-pattern>/citas.jsp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>segundo</servlet-name>
+		<servlet-class>unsa.com.AdmEliminar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>segundo</servlet-name>
+		<url-pattern>/eliminar.jsp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>tercero</servlet-name>
+		<servlet-class>unsa.com.AdmRegistrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tercero</servlet-name>
+		<url-pattern>/registrar.jsp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>cuarto</servlet-name>
+		<servlet-class>unsa.com.AdmServicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cuarto</servlet-name>
+		<url-pattern>/servicio.jsp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>quinto</servlet-name>
+		<servlet-class>unsa.com.AdmTrabajador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>quinto</servlet-name>
+		<url-pattern>/trabajador.jsp</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>eliminarT</servlet-name>
+		<servlet-class>unsa.com.Eliminar1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarT</servlet-name>
+		<url-pattern>/eliminarT.jsp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>eliminarT1</servlet-name>
+		<servlet-class>unsa.com.EliminarT</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarT1</servlet-name>
+		<url-pattern>/mauricio</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>eliminarS</servlet-name>
+		<servlet-class>unsa.com.Eliminar2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarS</servlet-name>
+		<url-pattern>/eliminarS.jsp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>eliminarS1</servlet-name>
+		<servlet-class>unsa.com.EliminarS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarS1</servlet-name>
+		<url-pattern>/mauricio1</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>eliminarR</servlet-name>
+		<servlet-class>unsa.com.EliminarR</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarR</servlet-name>
+		<url-pattern>/mauricio3</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>eliminarC1</servlet-name>
+		<servlet-class>unsa.com.EliminarC</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarC1</servlet-name>
+		<url-pattern>/mauricio2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>eliminarP1</servlet-name>
+		<servlet-class>unsa.com.Eliminar3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarP1</servlet-name>
+		<url-pattern>/eliminarR.jsp</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>eliminarP</servlet-name>
+		<servlet-class>unsa.com.EliminarR</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarP</servlet-name>
+		<url-pattern>/joao</url-pattern>
+	</servlet-mapping>
+	
+		<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+</web-app>
